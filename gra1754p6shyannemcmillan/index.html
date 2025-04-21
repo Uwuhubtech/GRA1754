@@ -1,0 +1,760 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>letsGROW | Shyanne Mcmillan, 2025</title>
+	
+	<link rel="stylesheet" href="https://use.typekit.net/uis2stb.css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	
+<script type="text/javascript">
+  $(document).ready(
+    function() {
+      $('#icon').click (
+        function() {
+          $('#nav').show();
+          $('#icon').hide();
+          $('#x_icon').show();
+        }
+  );
+  $('#x_icon').click (
+    function() {
+          $('#nav').hide();
+          $('#icon').show();
+          $('#x_icon').hide();
+        }
+      );
+    }
+  );
+</script>
+	
+	
+	
+<style type="text/css">
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #CCD7A4;
+    min-width: 320px;
+}
+wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    background-color: #FFFFFF;
+}
+header {
+    padding: 1em;
+    background-color: #403C01;
+    background-image: -webkit-linear-gradient(270deg,rgba(58,74,27,1.00) 0%,rgba(28,33,22,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(58,74,27,1.00) 0%,rgba(28,33,22,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(58,74,27,1.00) 0%,rgba(28,33,22,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(58,74,27,1.00) 0%,rgba(28,33,22,1.00) 100%);
+}
+nav {
+}
+footer {
+    padding: 10px;
+    word-spacing: 3px;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+h1  {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: 0;
+    width: 82%;
+    font-size: 61px;
+    font-family: "blanket",sans-serif;
+    font-weight: bolder;
+    color: rgba(203,230,155,1.00);
+}
+nav ul {
+    padding-top: 0.6em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 9px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color: rgba(166,175,131,1.00);
+}
+nav ul a {
+    padding: 0;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    background-color: undefined;
+}
+nav ul li {
+    border-bottom: medium dotted #4E672E;
+    color: #000000;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-size: 1.3em;
+    line-height: 2em;
+    text-indent: 9px;
+}
+nav ul li:hover {
+    background-color: #808C4F;
+    border-radius: 5px;
+    border-bottom-style: none;
+}
+#nav ul #Search {
+    width: 99%;
+    height: 30px;
+    border-style: solid;
+    /* [disabled]border-bottom-width: medium; */
+    background-color: #D3D9BC;
+    border-radius: 20px;
+    border-color: #9EA970;
+    text-indent: 9px;
+    margin-left: -2px;
+}
+.herotext h1  , h2 {
+    width: 100%;
+    text-align: center;
+    font-family: "Gelica",sans-serif;
+}
+	.herotext h1{animation: mobilecolor 2s infinite;}
+.dealmobile h1 {
+    animation: mobilecolor 2s infinite;
+}
+.herotext button {
+    margin: 0 auto;
+}
+.blogcontainer .blogtext button:hover  {
+    color: rgba(74,145,68,1.00);
+}
+.herodeal {
+    background-image: url(images/herodeal.png);
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+}
+	p{font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"}
+	
+	h3{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight: }
+	
+	h4{font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"}
+	
+	h5{font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-weight: 500}
+	
+	button{
+    font-family: "blanket",sans-serif;
+    font-size: 25px;
+	}
+	
+.dealmobile {
+    text-align: center;
+    margin-top: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+    border-radius: 16px;
+    width: 90%;
+    background-color: #E8EED1;
+    padding-bottom: 22px;
+    -webkit-box-shadow: 0px 0px 8px #6A7934;
+    box-shadow: 0px 0px 8px #6A7934;
+    border: thin solid #9AAA5D;
+}
+.dealmobile img {
+    border-radius: 16px 16px 0px 0px;
+}
+.dealmobile button {
+    border-style: none;
+    border-radius: 20px;
+    padding: 7px 19px;
+    background-color: #403C01;
+    font-size: 25px;
+    color: #BBBF9F;
+}
+#contact_us .Sendmessage button {
+    padding: 7px 19px;
+    font-size: 25px;
+    background-color: #BBBF9F;
+    border-radius: 20px;
+    color: #403C01;
+    border-style: none;
+}
+.dealmobile h2 {
+    font-size: 20px;
+    color: rgba(57,84,21,1.00);
+}
+body wrapper h2 {
+    color: rgba(57,84,21,1.00);
+}
+	.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.topdeal h4  {
+    font-size: 13px;
+    animation: topdealcolor 2s infinite;
+    text-align: center;
+	font-family: "Gelica",sans-serif;
+}
+.topdeal {
+    margin-top: -13px;
+    margin-bottom: -13px;
+    text-align: left;
+}
+.products {
+    text-align: center;
+    width: 100%;
+}
+.item {
+    border-radius: 20px;
+    transition: border-radius ease-out 0.4s;
+    border: 1.5px solid #477347;
+}
+.item:hover {
+    border-radius: 100px;
+}
+.ptext {
+    font-size: 19px;
+    margin-top: 6px;
+    text-align: center;
+    margin-left: 8px;
+    font-family: "gelica",sans-serif;
+    color: rgba(57,84,21,1.00);
+}
+	
+.citem {
+    display: inline-block;
+    width: 45%;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+#about_us {
+    padding: 10px 0px;
+    background-color: #071515;
+    background-image: url(images/about%20us.jpg);
+    color: #FFFFFF;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-box-shadow: inset 0px 0 51px 112px #071110;
+    box-shadow: inset 0px 0 51px 112px #071110;
+    text-shadow: 5px 5px 2px #000000;
+}
+.aboutusextra {
+    -webkit-box-shadow: 0 21px 28px 64px #06100F;
+    margin-top: 64px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 88px;
+    box-shadow: 0 21px 28px 64px #06100F;
+}
+#about_us h2 {
+    color: #E9F4C0;
+    font-size: 27px;
+}
+#about_us p {
+    text-indent: 17px;
+    width: 92%;
+    margin-left: 20px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 26px;
+}
+#about_us ul li {
+    width: 74%;
+    font-size: 18px;
+    margin-left: 10%;
+    line-height: 25px;
+    margin-right: 10%;
+}
+.blogcontainer .blogtext img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+#blogs h2 {
+    font-size: 27px;
+}
+#blogs .blogcontainer {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+#blogs .blogcontainer .blogtext {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    height: 50%;
+    border-radius: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #D5DDCF;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    -webkit-box-shadow: 0px 0px 5px 2px #274A27;
+    box-shadow: 0px 0px 5px 2px #274A27;
+    border: thin solid #91988D;
+}
+.blogcontainer .blogtext h4 {
+    text-align: left;
+}
+.blogcontainer .blogtext h5 {
+    text-align: left;
+    font-size: 15px;
+}
+.blogcontainer .blogtext h3, h4, h5 {
+    width: 90%;
+    margin-left: 20px;
+}
+.blogcontainer .blogtext h3 {
+    font-size: 20px;
+}
+.blogcontainer .blogtext button {
+    border-style: none;
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    -webkit-box-shadow: 0px -21px 13px 20px #EFEFEF;
+    box-shadow: 0px -21px 13px 20px #EFEFEF;
+    font-size: 25px;
+    color: #2E341A;
+    font-weight: bold;
+}
+#contact_us {
+    padding-top: 16px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 20px;
+    background-color: #2E341A;
+}
+#contact_us .Sendmessage {
+    text-align: center;
+}
+#contact_us .Sendmessage #name, #Email, #Message {
+    display: block;
+    width: 89%;
+    margin: 8px auto;
+    padding: 5px 0px;
+    text-align: left;
+    text-indent: 8px;
+    border-radius: 10px;
+}
+#contact_us .Sendmessage #Message {
+    padding-bottom: 13%;
+    padding-left: 0px;
+}
+#contact_us .socialmediaicons .facebook, .instagram, .X {
+    text-align: center;
+    display: inline-block;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#contact_us .socialmediaicons {
+    text-align: center;
+}
+#contact_us .socialmediaicons :hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+#contact_us .Sendmessage button {
+}
+#contact_us .Sendmessage button:hover {
+    background-color: rgba(109,112,87,1.00);
+}
+.blogcontainer .blogtext button {
+}
+#contact_us h2 {
+    font-size: 27pt;
+    color: rgba(218,230,200,1.00);
+}
+.quality {
+    width: 90%;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+    text-align: center;
+    border-radius: 66px;
+    background-color: #E8EED1;
+    padding: 0px 5px;
+    display: none;
+}
+.quality h4 {
+    display: inline-block;
+    width: 150px;
+}
+#contact_us .Sendmessage h3 {
+    font-size: 22px;
+    font-family: "gelica";
+    color: rgba(218,230,200,1.00);
+}
+	@keyframes topdealcolor
+	{
+		
+		0% {color: #646702;}
+		50%{color: #8C391B;}
+		100%{color:#646702;}
+	}
+	@keyframes mobilecolor
+	{
+		
+		0% {color: #F2B705;}
+		50%{color: #F23A05;}
+		100%{color:#F2B705;}
+	}
+.catagory .shop {
+    margin-top: 16px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 16px;
+    display: block;
+    padding: 7px 19px;
+    font-size: 25px;
+    background-color: #403C01;
+    border-radius: 20px;
+    color: #BBBF9F;
+    border-style: none;
+}
+.catagory .shop:hover  {
+    background-color: rgba(110,113,92,1.00);
+}
+#nav {
+    display: none;
+}
+.blogcontainer .blogtext button {
+}
+.dealmobile button:active {
+    -webkit-box-shadow: 2px 2px rgba(48,50,32,0.55);
+    box-shadow: 2px 2px rgba(48,50,32,0.55);
+}
+.herotext h2  {
+    color: rgba(203,230,155,1.00);
+    text-shadow: 3px 3px 1px rgba(10,23,7,1.00);
+}
+.herotext h1 {
+    text-shadow: 3px 3px rgba(9,22,6,1.00);
+}
+
+
+@media (min-width:786px){
+.products .citem {
+    width: 30%;
+}
+#about_us ul li {
+    margin-left: 10%;
+}
+#about_us {
+    padding-top: 25px;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 25px;
+}
+#about_us p {
+    font-size: 22px;
+}
+#about_us ul li {
+    font-size: 20px;
+    line-height: 30px;
+}
+.blogcontainer .blogtext {
+    display: inline-block;
+    width: 46%;
+    margin: 0px 10px;
+    vertical-align: top;
+}
+nav ul li {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bold;
+    color: rgba(203,230,155,1.00);
+}
+}
+
+@media (min-width:1024px){
+.dealmobile {
+    display: none;
+}
+.herodeal {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 100px 0;
+}
+.herodeal .herotext {
+    vertical-align: bottom;
+}
+.herodeal .herotext button {
+    border-radius: 20px;
+    padding: 7px 19px;
+    font-size: 25px;
+    border-style: none;
+    color: #BBBF9F;
+    background-color: #403C01;
+}
+.herodeal .herotext button:active {
+    -webkit-box-shadow: 3px 3px rgba(45,52,33,0.54);
+    box-shadow: 3px 3px rgba(45,52,33,0.54);
+}
+.products .citem  {
+    display: inline-block;
+    width: 13%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+.sectionbr {
+    display: inline-block;
+    width: 22%;
+    vertical-align: top;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 19px;
+}
+#about_us ul li {
+    font-size: 19px;
+}
+.blogcontainer .blogtext {
+    vertical-align: top;
+    width: 30%;
+}
+#about_us {
+    -webkit-box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px;
+}
+.aboutusextra {
+    -webkit-box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px;
+}
+#nav {
+    display: block;
+}
+#icon {
+    display: none;
+}
+nav ul li {
+    display: inline-block;
+    width: 33%;
+    border: 0;
+    text-align: center;
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.herodeal .herotext h1 {
+    margin: 0;
+    width: 100%;
+}
+#Search {
+    display: none;
+}
+h1 {
+    width: 100%;
+	
+}
+.topdeal h4 {
+    width: 97%;
+}
+header {
+    background-color: #384A14;
+    background-position: 0% 0%;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-image: -webkit-linear-gradient(270deg,rgba(55,70,26,1.00) 0%,rgba(55,70,26,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(55,70,26,1.00) 0%,rgba(55,70,26,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(55,70,26,1.00) 0%,rgba(55,70,26,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(55,70,26,1.00) 0%,rgba(55,70,26,1.00) 100%);
+}
+nav ul  {
+    margin: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    background-color: #37461A;
+}
+nav ul li {
+    padding: 5px 0px;
+    border-radius: 0px;
+    border: 0;
+    transition: background-size linear 0.5s;
+}
+nav ul li:hover {
+    background-color: rgba(67,79,43,1.00);
+}
+}
+</style>
+</head>
+
+<body>
+	<div class="topdeal">
+<h4>
+	    
+    10% Off on Merch. Limited time only!</h4>
+
+    </div>
+<header>
+	  
+  <img id="icon" src="images/menu.png" width="45px" alt="Navigation icon. Click to expand navigation menu."/>
+<img id="x_icon" src="images/x.png" width="45px" alt="Exit out icon. Click to close navigation menu." style="display: none;" />
+  <h1>LetsGROW!</h1>
+<nav id="nav">
+  <ul>
+    <input name="Search" type="text" id="Search" placeholder="Search" title="Search">
+	  
+    <a href="#about_us" id="about_us_link"><li>About Us</li></a>
+    <a href="#blogs" id="blogs_link"><li>Blogs</li></a>
+    <a href="#contact_us" id="contact_us_link"><li>Contact Us</li></a>
+  </ul>
+</nav>
+	</header>
+<div class="herodeal">
+<div class="herotext">
+    <h2>Newbie Green Thumb Deal</h2>
+    <h1>30% Off!</h1>
+	<h2>On your very FIRST Order!</h2>
+	  <button>Shop Now!</button>
+</div>
+</div>
+<div class="dealmobile">
+<img src="images/herodeal.png" alt="" width="100%">
+	<h2>Newbie Green Thumb Deal</h2>
+    <h1>30% Off!</h1>
+	<h2>On your very FIRST Order!</h2>
+	  <button>Shop Now!</button>
+	
+</div>
+	
+	<div class="quality">
+	<h4>Beginner-Friendly Gardening Education</h4>
+	<h4>Sustainable &amp; Eco-Friendly Gardening</h4>
+	<h4>Small Space &amp; Urban Gardening</h4>
+	</div>
+<wrapper>
+  <h2>Shop By Category</h2>
+  <section class="catagory">
+    <div class="products">
+<div class="citem"><img src="images/seeds.png" alt="" width="100%" class="item">
+  <h4 class="ptext">Seeds</h4>
+</div>
+<div class="citem"><img src="images/plants.png" alt="" width="100%" class="item">
+  <h4 class="ptext">Plants</h4>
+</div>
+      <div class="citem"><img src="images/tools.png" alt="" width="100%" class="item">
+        <h4 class="ptext">Tools</h4>
+      </div>
+      <div class="citem"><img src="images/soil.png" alt="" width="100%" class="item">
+        <h4 class="ptext">Soil</h4>
+      </div>
+      <div class="citem"><img src="images/fertilizer.png" alt="" width="100%" class="item">
+        <h4 class="ptext">Fertilizers</h4>
+      </div>
+      <div class="citem"><img src="images/merch.png" alt="" width="100%" class="item">
+        <h4 class="ptext">Merchandise</h4>
+      </div>
+    </div>
+<button class="shop">Shop All Products</button>
+  </section>
+  <div class="aboutusextra">
+    <section id="about_us">
+		<section class="sectionbr">
+      <h2>About LetsGrow</h2>
+      <p>Welcome to LetsGrow, your digital greenhouse for all things gardening. Whether you’re planting your very first seed or managing a thriving backyard jungle, we’re here to help your garden—and your passion—grow.</p>
+		</section>
+			<section class="sectionbr">
+      <h2>Our Mission</h2>
+      <p>At LetsGrow, we believe that gardening should be accessible, sustainable, and deeply rewarding. Our mission is to empower growers of all levels with the tools, tips, and inspiration they need to connect with nature, cultivate beauty, and harvest joy.</p>
+		</section>
+		
+		<section class="sectionbr">
+      <h2>What We Offer</h2>
+      <ul>
+        <li>Expert Guides – From soil to harvest, we break it down step by step.</li>
+        <li>Seasonal Tips – Know exactly what to plant and when.</li>
+        <li>Plant Care Library – Detailed care guides for hundreds of plant species.</li>
+       
+        
+        </ul>
+		</section>
+		
+		<section class="sectionbr">
+      <h2>Why LetsGrow?</h2>
+      
+      <p>Gardening is more than a hobby—it's a way of life. LetsGrow is built by gardeners, for gardeners, with a deep love for the earth and a drive to make growing more inclusive, intuitive, and inspiring.<br>
+  <br>
+        
+      Join us as we dig deeper, grow stronger, and bloom brighter—together.</p>
+		</section>
+    </section>
+  </div>
+  <section id="blogs">
+    <h2>Blogs</h2>
+    <div class="blogcontainer">
+      <div class="blogtext"><img src="images/balcony.jpg" alt="" width="100%">
+        <h3>How-To Guide: How to Start a Container Garden on Your Balcony</h3>
+        <h5>Dreaming of a garden but short on space? A container garden is the perfect way to grow fresh herbs, veggies, or flowers—right from your balcony, patio, or even a sunny window ledge.</h5>
+        <h4>What You Will Need:</h4>
+        <button>Read More</button>
+		
+		</div>
+      <div class="blogtext"><img src="images/seasonal.jpg" alt="" width="100%">
+        <h3>Seasonal Gardening Tips: What to Plant This Spring – Month by Month</h3>
+        <h5>Spring is a gardener’s favorite season—everything starts waking up, and the soil is ready to grow! Here's your simple month-by-month planting guide to get the most out of spring.</h5>
+        <h4>For March:</h4>
+		  <button>Read More</button>
+      </div>
+      <div class="blogtext"><img src="images/backyard.jpg" alt="" width="100%">
+        <h3>Lifestyle Inspiration: 5 Backyard Gardens That’ll Make You Want to Dig Today
+</h3>
+        <h5>Need a little garden envy to get inspired? These real-life backyard gardens from around the world will give you some serious growing goals.</h5>
+        <h4>The Pollinator Paradise</h4>
+		  <button>Read More</button>
+      </div>
+    </div>
+</section>
+  <section id="contact_us">
+    <h2>Contact Us</h2>
+	  <div class="socialmediaicons">
+	    <div class="facebook"><img src="images/facebookicon.png" width="60px" alt=""/></div>
+	    <div class="instagram"><img src="images/instaicon.png" width="60px" alt=""/></div>
+	    <div class="X"><img src="images/xicon.png" width="60px"  alt=""/></div>
+	  </div>
+	  <div class="Sendmessage">
+	    <h3> Or Send us a message!</h3>
+		  <input name="name" type="text" id="name" placeholder="Name">
+		  <input name="Email" type="email" id="Email" placeholder="Email">
+		  <input name="Message" type="text" id="Message" placeholder="Type your Message" title="message">
+		  <button>Send!</button>
+      </div>
+  </section>
+</wrapper>
+	
+<footer>
+		<p> © 2025, Shyanne Mcmillan<br><br>
+
+
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+	</footer>
+	
+	
+	
+</body>
+</html>
