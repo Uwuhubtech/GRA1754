@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Health | Shyanne Mcmillan, 2024</title>
+	<script type="text/javascript">
+window.onload = function () {
+	document.getElementById("password1").onchange = validatePassword;
+	document.getElementById("password2").onchange = validatePassword;
+}
+function validatePassword(){
+var pass2=document.getElementById("password2").value;
+var pass1=document.getElementById("password1").value;
+if(pass1!=pass2)
+	document.getElementById("password2").setCustomValidity("Passwords Do Not Match");
+else
+	document.getElementById("password2").setCustomValidity('');	 
+//empty string means no validation error
+}
+</script>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<wrapper>
+  <header><img src="myhealth-logo.png" alt="" width="350" class="logo">
+	<h1 class="better">Better Health A Better you.</h1>
+	
+</header>
+	
+	<main><h3>Create Your Portal!</h3>
+	
+		<h4>Make sure all of your information is correct unless stated otherwise</h4>
+    <form action="confirm1.html">
+      <section>
+	    <div id="salute">
+	      <label>Salutation</label>
+	      <select name="salutation_txt" required="required" id="salutation_txt">
+	        <option value="0" selected="selected">Salutation</option>
+	        <option value="1">Ms.</option>
+	        <option value="2">Miss.</option>
+	        <option value="3">Mrs.</option>
+	        <option value="4">Mr.</option>
+	        <option value="5">None</option>
+          </select>
+	  </div>
+        <div id="firstname">
+          <label>First Name</label>
+          <input name="firstname_txt" type="text" required="required" id="First" placeholder="First Name">
+       </div>
+<label>Last Name</label>
+		  <input name="lastname_txt" type="text" required="required" id="Last" placeholder="Last Name">
+		<label>Birthdate</label>
+		  <input name="birthdate_txt" type="date" required="required" id="date">
+       <label>Primary Phone Number</label>
+		  <input name="phone_txt" type="tel" required="required" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}">
+	 
+	   <label>Address</label>
+		  <input name="address_txt" type="text" required="required" id="address" placeholder="Enter Your Address"> 
+		  <label>Additional Address (Optional)</label>
+		  <input name="additionaladdress_txt" type="text" id="additional" placeholder="Enter APT, Unit or Floor">
+</section>
+      <section>
+	
+		
+       
+        <label>City</label>
+		  <input name="city_txt" type="text" required="required" id="city" placeholder="Enter City">
+        <label>State</label>
+		  <select name="states_txt" required="required" id="state">
+		    <option value="0" selected="selected">State</option>
+		    <option value="FL">Florida</option>
+		    <option value="CA">California</option>
+		    <option value="NY">New York</option>
+		  </select>
+        <label>Zip Code</label>
+		  <input name="zipcode_txt" type="text" required="required" id="zipcode" placeholder="Zip Code" pattern="[0-9]{5}">
+        <label>Email</label>
+		  <input name="email_txt" type="email" required="required" id="email" placeholder="you@example.com">
+        <label>Password</label>
+		  <input name="password1" type="password" required="required" id="password1" placeholder="Password must consist of 8-10 letters and/or numbers." pattern="[0-9A-Za-z]{6,12}">
+        <label>Confirm Password</label>
+		  <input name="password2" type="password" required="required" id="password2" placeholder="Confirm Password">
+      </section>
+      
+      <input type="checkbox" required="required" id="tandc_txt">
+      <label class="tandc">I agree to the Terms And Conditions</label>
+      
+      <input type="submit" name="submit" id="submit" value="Confirm">
+    </form>
+  </main>
+	
+    
+  <footer><p>© 2025, Shyanne Mcmillan. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+  </footer>
+</wrapper>
+</body>
+</html>

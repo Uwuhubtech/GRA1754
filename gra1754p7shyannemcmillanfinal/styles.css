@@ -1,0 +1,450 @@
+@charset "utf-8";
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(woman-5781862_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 320px;
+}
+header {
+    text-align: center;
+    margin-bottom: 28px;
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 11px;
+    background-color: hsla(0,0%,100%,1.00);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    -webkit-box-shadow: 0px 2px 8px 4px hsla(240,4%,35%,1.00);
+    box-shadow: 0px 2px 8px 4px hsla(240,4%,35%,1.00);
+
+}
+.better {
+    margin-top: -6px;
+    margin-bottom: 0px;
+    font-family: serif;
+    font-style: oblique;
+    color: hsla(218,44%,12%,1.00);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+#submit {
+    width: 100px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    border-style: none;
+    border-color: hsla(217,42%,38%,1.00);
+    background-color: hsla(217,42%,38%,1.00);
+    text-shadow: 0px 0px;
+    color: hsla(0,0%,100%,1.00);
+    font-family: Arial, "Arial Black", "Arial Narrow", "Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond";
+    font-weight: normal;
+    font-size: large;
+    letter-spacing: 1px;
+    font-variant: normal;
+    text-align: center;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    margin-left: 45%;
+    display: block;
+
+}
+#submit:hover {
+    background-color: hsla(217,43%,19%,1.00);
+}
+
+
+h2, h3 ,h4{
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    font-family: Arial, "Arial Black", "Arial Narrow", "Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond";
+    font-size: large;
+}
+h3 {
+    font-size: x-large;
+}
+h4 {
+    color: hsla(0,36%,26%,1.00);
+    text-align: center;
+}
+
+
+
+.logo {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+main {
+    margin: 0 auto;
+    background-color: hsla(0,0%,100%,1.00);
+    border-radius: 30px;
+    -webkit-box-shadow: 0 2px 8px 4px hsla(240,4%,35%,1.00);
+    box-shadow: 0 2px 8px 4px hsla(240,4%,35%,1.00);
+    padding-bottom: 8px;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    padding: 16px;
+    margin-right: -16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+label {
+    padding: 16px;
+    display: block;
+    font-family: Arial, "Arial Black", "Arial Narrow", "Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond";
+    font-weight: bold;
+}
+.tandc {
+    display: inline-block;
+}
+
+#tandc_txt {
+    margin-top: -35px;
+    display: inline-block;
+    width: 14px;
+    margin-left: 30px;
+}
+
+input, select {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 90%;
+}
+#state {
+    width: 96%;
+}
+
+#salute {
+    width: 25%;
+    display: inline-block;
+    margin-right: -4px;
+}
+#firstname {
+    width: 72%;
+    display: inline-block;
+    margin-right: -4px;
+}
+h1 {
+    text-align: center;
+
+}
+.confirm {
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+.confirmh2 {
+    padding-bottom: 50px;
+}
+
+wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    min-height: 0px;
+}
+
+@media (max-width:768px){
+wrapper {
+    padding-left: 0px;
+    width: 100%;
+}
+section {
+    display: block;
+    width: 93%;
+    padding: 5px;
+}
+#submit {
+    margin-left: 43%;
+}
+#state {
+    width: 96%;
+}
+
+
+
+
+}
+
+@media (max-width:425px){
+#salute {
+    width: 109%;
+}
+#firstname {
+    width: 100%;
+}
+wrapper {
+    width: 100%;
+}
+section {
+    width: 93%;
+}
+#submit {
+    margin-left: 39%;
+}
+
+
+
+
+
+
+
+}
+
+@media (max-width:400px){
+wrapper {
+    width: 100%;
+}
+input, select {
+    width: 88%;
+}
+
+header {
+
+}
+img {
+    width: 95%;
+}
+.tandc {
+    font-size: 81%;
+}
+
+#tandc_txt {
+    width: 4%;
+}
+#state {
+    width: 99%;
+}
+
+
+
+
+
+
+}
+
+@media (min-width:768px){
+label {
+    width: 29%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -4px;
+    text-align: left;
+}
+input, select {
+    width: 65%;
+    display: inline-block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -4px;
+}
+#state {
+    display: inline-block;
+    width: 65%;
+}
+wrapper {
+    width: 90%;
+}
+
+
+#First {
+    display: inline-block;
+}
+#firstname {
+    display: inline-block;
+    width: 100%;
+}
+#salute {
+    display: inline-block;
+    width: 100%;
+}
+
+
+
+
+section {
+    display: block;
+    width: 100%;
+}
+
+
+
+}
+
+@media (min-width:1024px){
+	
+	header {
+    text-align: center;
+    margin-bottom: 28px;
+    padding-top: 11px;
+    padding-right: 11px;
+    padding-left: 11px;
+    padding-bottom: 11px;
+    background-color: hsla(0,0%,100%,1.00);
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    -webkit-box-shadow: 0px 2px 8px 4px hsla(240,4%,35%,1.00);
+    box-shadow: 0px 2px 8px 4px hsla(240,4%,35%,1.00);
+
+}
+.better {
+    margin-top: -6px;
+    margin-bottom: 0px;
+    font-family: serif;
+    font-style: oblique;
+    color: hsla(218,44%,12%,1.00);
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+#submit {
+    width: 100px;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+    border-style: none;
+    border-color: hsla(217,42%,38%,1.00);
+    background-color: hsla(217,42%,38%,1.00);
+    text-shadow: 0px 0px;
+    color: hsla(0,0%,100%,1.00);
+    font-family: Arial, "Arial Black", "Arial Narrow", "Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond";
+    font-weight: normal;
+    font-size: large;
+    letter-spacing: 1px;
+    font-variant: normal;
+    text-align: center;
+    transition: background-color 0.4s;
+    cursor: pointer;
+    margin-left: 45%;
+    display: block;
+
+}
+#submit:hover {
+    background-color: hsla(217,43%,19%,1.00);
+}
+
+
+h2, h3 ,h4{
+    text-align: center;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    font-family: Arial, "Arial Black", "Arial Narrow", "Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond";
+    font-size: large;
+}
+h3 {
+    font-size: x-large;
+}
+h4 {
+    color: hsla(0,36%,26%,1.00);
+    text-align: center;
+}
+
+
+
+.logo {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+main {
+    margin: 0 auto;
+    background-color: hsla(0,0%,100%,1.00);
+    border-radius: 30px;
+    -webkit-box-shadow: 0 2px 8px 4px hsla(240,4%,35%,1.00);
+    box-shadow: 0 2px 8px 4px hsla(240,4%,35%,1.00);
+    padding-bottom: 8px;
+}
+section {
+    width: 50%;
+    display: inline-block;
+    padding: 16px;
+    margin-right: -16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+label {
+    padding: 16px;
+    display: block;
+    font-family: Arial, "Arial Black", "Arial Narrow", "Franklin Gothic Book", "Franklin Gothic Demi", "Franklin Gothic Demi Cond";
+    font-weight: bold;
+    width: 60%;
+}
+.tandc {
+    display: inline-block;
+}
+
+#tandc_txt {
+    margin-top: -35px;
+    display: inline-block;
+    width: 14px;
+    margin-left: 30px;
+}
+
+input, select {
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    width: 90%;
+}
+#state {
+    width: 90%;
+}
+
+#salute {
+    width: 25%;
+    display: inline-block;
+    margin-right: -4px;
+}
+#firstname {
+    width: 72%;
+    display: inline-block;
+    margin-right: -4px;
+}
+h1 {
+    text-align: center;
+
+}
+.confirm {
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+
+.confirmh2 {
+    padding-bottom: 50px;
+}
+
+wrapper {
+    margin: 0 auto;
+    display: block;
+    width: 90%;
+}
+
+}
